@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../pydocxdb/.idea/word_readin.iml" filepath="$PROJECT_DIR$/../pydocxdb/.idea/word_readin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pydocxdb.iml" filepath="$PROJECT_DIR$/.idea/pydocxdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/word_readin.iml" filepath="$PROJECT_DIR$/.idea/word_readin.iml" />
     </modules>
   </component>
 </project>

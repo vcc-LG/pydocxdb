@@ -1,5 +1,6 @@
 from docx import Document
 import os
+
 from pymongo import MongoClient
 
 
@@ -25,7 +26,7 @@ def get_data():
                             for paragraph in cell.paragraphs:
                                 i += 1
                                 if i % 2 != 0:
-                                    keys.append(paragraph.text)
+                                    keys.append(paragraph.text.replace(".","").lower())
                                 else:
                                     values.append(paragraph.text)
                 data_dictionary = dict(zip(keys, values))
